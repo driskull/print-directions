@@ -1,4 +1,10 @@
-require(["dojo/dom", "dojo/on", "dojo/number", "modules/mustache", "dojo/text!template/directions"], function(dom, on, number, Mustache, dirTemplate) {
+require([
+    "dojo/dom",
+    "dojo/on",
+    "dojo/number",
+    "modules/mustache",
+    "dojo/text!template/directions"
+], function(dom, on, number, Mustache, dirTemplate) {
     var directions, output;
     try {
         directions = window.opener.directions;

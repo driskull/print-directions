@@ -26,7 +26,7 @@
                     {{^maneuver}}<div class="esriPrintStopLabel">{{letter}}</div>{{/maneuver}}
                 </td>
                 <td class="esriRouteTextColumn">
-                    <div><strong>{{attributes.step}}.</strong> {{attributes.text}}</div>
+                    <div>{{#attributes.step}}<strong>{{attributes.step}}.</strong>{{/attributes.step}} {{attributes.text}}</div>
                 </td>
                 <td class="esriRouteTextColumn" width="10%">
                      <div class="esriRouteLength">{{distance}}</div>
